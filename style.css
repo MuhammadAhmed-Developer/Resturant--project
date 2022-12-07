@@ -1,0 +1,445 @@
+ body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+ }
+ 
+ 
+ .btn1 {
+     background-color: #fe4e2b;
+     padding: 14px 16px;
+     color: white;
+     border-radius: 0;
+ }
+
+ .btn1:hover {
+     background-color: white;
+     color: #fe4e2b;
+     border: 2px solid#fe4e2b;
+ }
+
+ #homme {
+     color: #fe4e2b;
+ }
+
+ #homme:hover {
+     color: gray;
+ }
+
+ .tast {
+     font-size: 70px;
+     color: #fe4e2b;
+     font-family: "Great Vibes", cursive !important;
+     font-style: oblique;
+     margin-left: 5rem;
+     line-height: 15px;
+
+ }
+
+
+ .carousel-caption {
+     margin-bottom: 60px;
+     
+
+     
+ }
+ .background::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;}
+
+ .love {
+     font-size: 90px;
+     font-weight: 700;
+
+ }
+
+ .btn2 {
+     border-radius: 0px;
+     
+
+ }
+
+ .btn2:hover {
+     background-color: #fe4e2b;
+     color: white;
+ }
+
+ .zigzag {
+     background: linear-gradient(-45deg, #ffffff 10px, #ffffff 10px, #ffffff 10px, transparent 0), linear-gradient(45deg, #ffffff 10px, transparent 0);
+     background-image: linear-gradient(-45deg, rgb(255, 255, 255) 10px, rgb(255, 255, 255) 10px, rgb(255, 255, 255) 10px, transparent 0px), linear-gradient(45deg, rgb(255, 255, 255) 10px, transparent 0px);
+     background-position-x: left;
+     background-position-y: top;
+     background-size: 12px 32px;
+     background-attachment: initial, initial;
+     background-origin: initial, initial;
+     background-clip: initial, initial;
+     background-color: initial;
+     background-position: left top;
+     background-repeat: repeat-x;
+     background-size: 12px 32px;
+     content: " ";
+     display: block;
+     height: 32px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     z-index: 78;
+ }
+
+ .story {
+     margin-top: 15vh;
+
+ }
+
+ .stor {
+     margin-top: 15vh;
+ }
+
+ .discover {
+     color: #fe4e2b;
+     font-family: "Great Vibes", cursive;
+     font-weight: 200;
+ }
+
+ .our {
+     font-size: 45px;
+     font-weight: 700;
+     line-height: 30px;
+
+ }
+
+ .para {
+     line-height: 30px;
+
+ }
+
+ .gallery {
+     background-color: #fe4e2b;
+     margin-top: 70px;
+
+ }
+
+ .menu {
+     text-decoration: none;
+     color: white;
+
+
+ }
+
+ .gae {
+     font-size: 60px;
+     font-weight: 700;
+     line-height: 10vh;
+ }
+
+ .card-title {
+     font-size: 60px;
+     font-weight: 700;
+ }
+
+ .card {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     border-radius: 0px;
+ }
+
+ .gallery-content {
+     text-decoration: none;
+     box-sizing: border-box;
+     color: white;
+
+ }
+
+ .set {
+     color: #000;
+     font-weight: bolder;
+ }
+
+ .john {
+     font-size: 30px;
+     font-weight: bolder;
+     color: #fe4e2b;
+     padding-top: 10px;
+
+ }
+
+ .dashes {
+     margin-top: 20px;
+
+ }
+
+ /* .hanji {
+     background: #fe4e2b;
+     height: 370px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+ } */
+
+ .private {
+     font-size: 50px;
+ }
+
+ .bi-quote {
+     color: #fe4e2b;
+     font-size: 50px;
+ }
+
+ .carouselExampleIndicators .carousel-indicators button {
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     background-color: #fe4e2b;
+     border: 1px solid black;
+
+ }
+
+ .back {
+     background: url(./assect/images/background.webp) no-repeat center/cover fixed; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+
+ .menue {
+     font-size: 60px;
+     font-weight: 700;
+     color: #fe4e2b;
+
+ }
+
+ .list {
+     cursor: pointer;
+     color: gray;
+ }
+
+ .list-group-item:hover {
+     color: #000;
+     border-bottom: 1px solid #fe4e2b;
+     margin-top: 10px;
+ }
+
+ .enter {
+     color: #fe4e2b;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 800;
+     font-size: 50px;
+ }
+
+ .sky-bg {
+     background-color: rgb(226, 237, 241);
+ }
+
+ .rightbar {
+     list-style: none;
+     margin-left: 55vh;
+     line-height: 18vh;
+     margin-top: -110vh;
+ }
+
+ .arrow {
+     margin-top: -25px;
+ }
+ .pizza-card{
+    margin-top: -17em;
+ }
+ .kitchen{
+    color: #fe4e2b;
+    font-weight: 700;
+ }
+ .butti {
+    background-color: #000000;
+    padding: 14px 16px;
+    color: white;
+    border-radius: 0;
+    margin-left: 15px;
+}
+
+.butti:hover {
+    background-color: white;
+    color: #050505;
+    border: 2px solid#000000;
+}
+.gray{
+    color: rgb(170, 170, 170);
+}
+.instagr{
+ border: 5px solid white;
+}
+.orange{
+    background-color: #fe4e2b;
+}
+.texta{
+    padding: 80px;
+}
+.PRESS{
+    font-size: 60px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+.fish{
+    color: #fe4e2b;
+}
+.bord{
+    border-right: 1px solid rgb(228, 228, 228);
+}
+.textr{
+    font-size: 16px;
+    line-height: 25px;
+}
+.primary{
+    color: #fe4e2b;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.primary:hover{
+    color: #fe4e2b;
+}
+.make{
+    
+}
+.calender{
+    background-color: #ffffff;
+    border: none;
+}
+.make-a{
+    background: url(./assect/images/background\ 2.webp) no-repeat center/cover fixed;
+}
+.poly{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:bold;
+    color: #000;
+}
+.poly:hover{
+    color: #000;
+}
+.bi-pentagon-fill{
+    font-size: 50px;
+    color: #000;
+}
+.bi-circle-fill{
+    color: #fe4e2b;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.calender{
+    border: 3px solid #fe4e2b;
+}
+
+
+ @media only screen and (max-width: 576px) {
+     .image-logo {
+         width: 17vh;
+     }
+
+     .btnes {
+         margin-top: 30px;
+     }
+    .butti{
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    body{
+        box-sizing: border-box;
+      
+       /* background-color: lightcoral; */
+    }
+   .navbar-toggler {
+    background-color: #fe4e2b;
+   }
+   
+ }
+
+
+
+
+ @media only screen and (max-width: 768px) {
+    .pizza-card{
+        margin-top: 0;
+     }
+    .content{
+        gap: 15px;
+    }
+    .navbar-toggler {
+        background-color: whitesmoke;
+       } 
+    
+       /* .carousel-caption {
+        margin-bottom: 10px;
+        
+   
+        
+    } */
+ }
+
+
+ @media only screen and (max-width: 1200px) {
+     .carousel-caption {
+         margin-top: 0px;
+     }
+
+     .love {
+         font-size: 50px;
+     }
+
+     .tast {
+         font-size: 50px;
+         display: flex;
+         justify-content: center;
+         margin-right: 90px;
+     }
+
+     .stor {
+         margin-top: 2vh;
+     }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+     .img2 {
+         margin-left: -100px;
+     }
+     .pizza-card{
+        margin-top: -17.99em;
+     
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
